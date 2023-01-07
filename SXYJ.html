@@ -10,11 +10,9 @@
 <body background="BG.webp">
 <br>
 <script>
-document.onkeydown = function(){
-    if (event.ctrlKey && window.event.keyCode==85){
-    return false;
-    }
-    }
+		document.addEventListener('contextmenu',function(e){
+			e.preventDefault();
+		})
 </script>
 <!-->
 
