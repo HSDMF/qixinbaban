@@ -1,6 +1,13 @@
 ﻿<!Doctype HTML>
 <HTML>
 <HEAD>
+<script>
+//网站禁止选择文字
+    document.body.onselectstart = function() {
+    self.event.returnValue=false
+};
+</script>
+<script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script>
 <link rel="icon" type="image/x-icon" href="bh.ico">
 <meta charset='utf-8'>
  <meta name="viewport" content="width=device-width, initial-scale=1">
