@@ -4,6 +4,7 @@
 <meta charset='utf-8'>
 <link rel="icon" type="image/x-icon" href="bh.ico">
 <title>数学研究</title>
+
 <script type="text/javascript">
 //判断F12审查元素
 function fuckyou() {
@@ -42,9 +43,41 @@ fuckyou();
 </head>
 <body background="BG.webp">
 <br>
+<script>
+	//按键触发
+document.onkeydown = function(){
+    //禁止ctrl+u
+    if (event.ctrlKey && window.event.keyCode==85){
+    return false;
+    }
+    }
+</script>
+<script>
+/**禁止右击事件菜单弹出*/
+    document.οncοntextmenu=ContextMenu;
+    function ContextMenu()  
+    {  
+      return false;  
+    }
+</script>
 <center>
 <h1>熟悉的“十合一”——核酸检测中的数学问题</h1>
+<script>
+	//按键触发
+document.onkeydown = function(){
+	//禁止ctrl+s
+    if (event.ctrlKey && window.event.keyCode==83){
+    return false;
+    }
+    }
+</script>
 <br>
+<script>
+//网站禁止选择文字
+    document.body.onselectstart = function() {
+    self.event.returnValue=false
+};
+</script>
 <p>1.引言
 核酸检测是疫情防控的重要方法，是尽早发现新冠病毒感染的有效途径，很多时候核酸检测都是在与病毒扩散进行时间赛跑。核酸检测方式有单检，也有十合一、五合一或二十合一的混检。不同疫情情况下会采用不同的检测方式提高核酸检测效率，这其中有什么数学道理呢？这个问题引起我们数学小组的强烈兴趣。</p></br>
 
