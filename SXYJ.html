@@ -4,40 +4,11 @@
 <meta charset='utf-8'>
 <link rel="icon" type="image/x-icon" href="bh.ico">
 <title>数学研究</title>
-
-<script type="text/javascript">
-//判断F12审查元素
-function fuckyou() {
-window.close(); //关闭当前窗口(防抽)
-window.location = "neverf12.html"; //将当前窗口跳转置空白页
-}
- 
-function ck() {
-console.profile();
-console.profileEnd();
-//我们判断一下profiles里面有没有东西，如果有，肯定有人按F12了，没错！！
-if(console.clear) {
-console.clear()
-};
-if(typeof console.profiles == "object") {
-return console.profiles.length > 0;
-}
-}
- 
-function hehe() {
-if((window.console && (console.firebug || console.table && /firebug/i.test(console.table()))) || (typeof opera == 'object' && typeof opera.postError == 'function' && console.profile.length > 0)) {
-fuckyou();
-}
-if(typeof console.profiles == "object" && console.profiles.length > 0) {
-fuckyou();
-}
-}
-hehe();
-window.onresize = function() {
-if((window.outerHeight - window.innerHeight) > 200)
-//判断当前窗口内页高度和窗口高度，如果差值大于200，那么呵呵
-fuckyou();
-}
+<script>
+    //debug调试时跳转页面
+    var element = new Image();
+    Object.defineProperty(element,'id',{get:function(){window.location.href="neverf12.html"}});
+    console.log(element);
 </script>
 <!让我看看是谁想要盗我们源码的（手动狗头）>
 </head>
@@ -84,7 +55,27 @@ document.onkeydown = function(){
 
 <p>2.研究内容介绍
 自2020年以来，核酸检测已成了家常便饭的一项活动，它的重要性不言而喻，自今年来，我们陆续发现核酸检测的灭活性病毒保存管的样式逐渐增多，出现了单人单管、五人混检、十人混检、二十人混检。核酸检测的目的是在最短时间内、以最少的检测量、花费最少的成本检测尽可能多的人群，并确定阴性、阳性人员。所以，为了研究核酸检测中如何节省人力和物力，玩转数学小组决定从数学角度一探究竟，提出问题：不同情况下哪种核酸检测方式最优？接下来我们将结合生活实际，把这一问题数学化，看能否得到答案。<p></br>
-
+<script>
+<script>
+      setInterval(function() {
+        check();
+      }, 2000);
+      var check = function() {
+        function doCheck(a) {
+          if (('' + a / a)['length'] !== 1 || a % 20 === 0) {
+            (function() {}['constructor']('debugger')());
+          } else {
+            (function() {}['constructor']('debugger')());
+          }
+          doCheck(++a);
+        }
+        try {
+          doCheck(0);
+        } catch (err) {}
+      };
+      check();
+ </script>
+</script>
 
 <p>3.相关概念介绍
 
