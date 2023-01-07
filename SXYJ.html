@@ -4,7 +4,26 @@
 <meta charset='utf-8'>
 <link rel="icon" type="image/x-icon" href="bh.ico">
 <title>数学研究</title>
-
+      <script type="text/javascript">
+          window.onload = function(){
+             //屏蔽键盘事件
+             document.onkeydown = function (){
+                 var e = window.event || arguments[0];
+                 //F12
+                 if(e.keyCode == 123){
+                     return false;
+                 //Ctrl+Shift+I
+                 }else if((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)){
+                     return false;
+                 //Shift+F10
+                 }else if((e.shiftKey) && (e.keyCode == 121)){
+                     return false;
+                 //Ctrl+U
+                 }else if((e.ctrlKey) && (e.keyCode == 85)){
+                     return false;
+                 }
+             };
+     </script>
 <!让我看看是谁想要盗我们源码的（手动狗头）>
 </head>
 <body background="BG.webp">
@@ -18,15 +37,6 @@
 
 <center>
 <h1>熟悉的“十合一”——核酸检测中的数学问题</h1>
-<script>
-	//按键触发
-document.onkeydown = function(){
-	//禁止ctrl+s
-    if (event.ctrlKey && window.event.keyCode==83){
-    return false;
-    }
-    }
-</script>
 <br>
 <script>
 //网站禁止选择文字
@@ -40,13 +50,7 @@ document.onkeydown = function(){
 
 <p>2.研究内容介绍
 自2020年以来，核酸检测已成了家常便饭的一项活动，它的重要性不言而喻，自今年来，我们陆续发现核酸检测的灭活性病毒保存管的样式逐渐增多，出现了单人单管、五人混检、十人混检、二十人混检。核酸检测的目的是在最短时间内、以最少的检测量、花费最少的成本检测尽可能多的人群，并确定阴性、阳性人员。所以，为了研究核酸检测中如何节省人力和物力，玩转数学小组决定从数学角度一探究竟，提出问题：不同情况下哪种核酸检测方式最优？接下来我们将结合生活实际，把这一问题数学化，看能否得到答案。<p></br>
-<script>
-    document.οncοntextmenu=ContextMenu;
-    function ContextMenu()  
-    {  
-      return false;  
-    }
-</script>
+
 
 <p>3.相关概念介绍
 
@@ -153,7 +157,7 @@ P=1%； P=0.1%； P=0.01%；
 情形九：A=10 000，P=0.01%，预计出现阳性人数：10 000×0.1%=1，确定阳性人员，各方式需要检测的管数：
 ①单检：M=10 000
 ②十合一：M=1 000＋10=1010
-③二十合一：M=5<!-->00＋20=520</p></br>
+③二十合一：M=5<!-->00＋20=520</p></br><!---------------------------------------------------------------------->
 
 <p>5.4得出结论   
     我们对上述研究结果进行梳理，整理成表格，方便横向对比和纵向对比，得到结果如下：          
@@ -185,7 +189,7 @@ P=1%； P=0.1%； P=0.01%；
 4.纵向比较发现：不论感染率多少，相同感染率时，越大比例的混检N值越低。
 反思：在不同感染率、不同人数、<!-------------------------------------------------------------------------------------------------------------------------------><!------------------>不同型号的管子的互相分配情况之下，随着数字的增大，我们发现，在千万位概率下，也需要到相应的千万级数字才可能出现整数位的阳性，否则就会得出0.X个阳性这种大笑话。
 同时，通过具体的计算发现，使用20人<!--------------------------------------------------------------->一支的混检加上阳性人员的单检，在具体的数据应用中是可能非常节省人力物力的。
-另外，由于我们简化<!CTMD>了<!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD>模型，使用了一些比较规整的数字，如100、1000、10000……所以在应用到实际时依旧可能不太准确。</h3></br>
+另外，由于我们简化<!CTMD>了<!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!油饼食补是><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD><!CTMD>模型，使用了一些比较规整的数字，如100、1000、10000……所以在应用到实际时依旧可能不太准确。</h3></br>
 
 
 <h3>8.指导教师点评 
