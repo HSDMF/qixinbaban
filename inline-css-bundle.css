@@ -5,7 +5,7 @@
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license
 
-Copyright (c) 2013 Daniel Eden
+
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -6132,7 +6132,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 html::-webkit-scrollbar-thumb:hover {
-  background: #ff558c;
+  background: #2e317c;
 }
 
 /******** Not edit in here *********/
@@ -6441,7 +6441,7 @@ a:hover {
 .button {
   width: 15rem;
   height: 5rem;
-  background: #ff558c;
+  background: #2e317c;
   border-radius: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6630,7 +6630,7 @@ a:hover {
 
 .child-head .d-block .nav-link {
   border-bottom: unset;
-  background-color: #ff558c;
+  background-color: #2e317c;
   color: #ffffff !important;
 }
 
@@ -8714,7 +8714,7 @@ footer.site-footer .quick-link .ql-item {
 .hp__recent-news .btn-view-more a {
   width: 15rem;
   height: 5rem;
-  background: #ff558c;
+  background: #2e317c;
   border-radius: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8837,7 +8837,7 @@ footer.site-footer .quick-link .ql-item {
   font-size: 3.5rem;
   line-height: 1;
   font-weight: bold;
-  color: #ff558c;
+  color: #2e317c;
   padding-left: 1rem;
 }
 
@@ -8851,7 +8851,7 @@ footer.site-footer .quick-link .ql-item {
   margin-bottom: 1rem;
   font-weight: bold;
   line-height: 1;
-  color: #ff558c;
+  color: #2e317c;
   font-family: "Sofia Pro";
 }
 
@@ -9665,7 +9665,7 @@ html[lang="hk"] .hp__business-highlights .list-business-highlights .item .box-co
 .news-release-section .news-release-wrapper .search form .submit-btn {
   width: 12rem;
   height: 4rem;
-  background: #ff558c;
+  background: #2e317c;
   border-radius: 2rem;
   border: 0;
   outline: 0;
@@ -10572,7 +10572,7 @@ html[lang="hk"] .hp__business-highlights .list-business-highlights .item .box-co
 
 .esg-reports .esg-reports__wrapper .esg-reports__content .esg-reports__view-more:hover {
   color: #fff;
-  background: #ff558c;
+  background: #2e317c;
   opacity: 0.8;
 }
 
@@ -11787,7 +11787,7 @@ html[lang="hk"] .esg__honors-and-awards .esg-haa__list .esg-haa__item .esg-haa__
 .webcast-section .search form .submit-btn {
   width: 12rem;
   height: 4rem;
-  background: #ff558c;
+  background: #2e317c;
   border-radius: 2rem;
   border: 0;
   outline: 0;
@@ -12663,9 +12663,9 @@ html[lang="hk"] .esg__honors-and-awards .esg-haa__list .esg-haa__item .esg-haa__
 
 .annual-interim-reports-container .tab-head .nav .nav-link {
   width: 12rem;
-  border: 1px solid #ff558c;
+  border: 1px solid #2e317c;
   border-radius: 2rem;
-  color: #ff558c;
+  color: #2e317c;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 150%;
@@ -12676,7 +12676,7 @@ html[lang="hk"] .esg__honors-and-awards .esg-haa__list .esg-haa__item .esg-haa__
 
 .annual-interim-reports-container .tab-head .nav .nav-link.active {
   border-bottom: unset;
-  background-color: #ff558c;
+  background-color: #2e317c;
   color: #ffffff;
 }
 
@@ -13057,9 +13057,9 @@ html[lang="hk"] .esg__honors-and-awards .esg-haa__list .esg-haa__item .esg-haa__
 
 .faqs-container .box-header .tab-header {
   width: 22rem;
-  border: 1px solid #ff558c;
+  border: 1px solid #2e317c;
   border-radius: 2rem;
-  color: #ff558c;
+  color: #2e317c;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 150%;
@@ -13077,7 +13077,7 @@ html[lang="hk"] .esg__honors-and-awards .esg-haa__list .esg-haa__item .esg-haa__
 }
 
 .faqs-container .box-header .tab-header.active {
-  background-color: #ff558c;
+  background-color: #2e317c;
   color: #fff;
   pointer-events: none;
 }
@@ -13189,7 +13189,7 @@ html[lang="hk"] .esg__honors-and-awards .esg-haa__list .esg-haa__item .esg-haa__
 .information-request-container .information-request-form #contact-page-form .enquiry-content label::after {
   content: "*";
   position: absolute;
-  color: #ff558c;
+  color: #2e317c;
   right: -0.8rem;
   top: 0;
 }
@@ -13379,7 +13379,7 @@ html[lang="hk"] .esg__honors-and-awards .esg-haa__list .esg-haa__item .esg-haa__
 .information-request-container .information-request-form #contact-page-form .fax textarea::-webkit-scrollbar-thumb,
 .information-request-container .information-request-form #contact-page-form .investor-type textarea::-webkit-scrollbar-thumb,
 .information-request-container .information-request-form #contact-page-form .enquiry-content textarea::-webkit-scrollbar-thumb {
-  background: #ff558c;
+  background: #2e317c;
   border-radius: 1rem;
 }
 
